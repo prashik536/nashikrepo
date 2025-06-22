@@ -8,3 +8,7 @@ curl -SL https://github.com/docker/compose/releases/download/v2.27.0/docker-comp
 chmod +x ~/.docker/cli-plugins/docker-compose
 docker compose version
 ```
+```
+for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+
+```
